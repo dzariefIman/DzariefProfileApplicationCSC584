@@ -1,0 +1,43 @@
+<!-- 
+    Individual Assignment 1 CSC584
+    MOHAMMED DZARIEF IMAN BIN MOHAMMED DZULHARDY
+    2025248228
+    CS2664A
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    
+    <body>
+        <div class="bg"></div>        
+        <form action="AddProfileServlet" method="post">
+            <h1>Hello, please insert your Profile Details!</h1>
+            
+            <label for="name"><i class="fas fa-user"></i> Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="studentID"><i class="fas fa-id-card"></i> Student ID</label>
+            <input type="text" id="studentID" name="studentID" required>
+            
+            <label for="program"><i class="fas fa-book"></i> Program</label>
+            <input type="text" id="program" name="program" required>
+            
+            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" required>
+            
+            <label for="hobbies"><i class="fas fa-heart"></i> Hobbies</label>
+            <input type="text" id="hobbies" name="hobbies" required>
+            
+            <label for="selfIntroduction"><i class="fas fa-comment"></i> Short self-introduction</label>
+            <input type="text" id="selfIntroduction" name="selfIntroduction" required>
+            
+            <input type="submit" value="Add Profile">
+        </form>
+    </body>
+</html>

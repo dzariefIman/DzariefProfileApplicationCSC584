@@ -1,0 +1,207 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url("https://university.segi.edu.my/wp-content/uploads/sites/3/2024/01/SEGi-global-mobality-programme-scaled.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1vw;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.027);
+  backdrop-filter: blur(8px);
+  padding: 1vw;
+  border-radius: 1.5vw;
+  width: 70vw;
+  max-width: 50vw;
+  height: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h1 {
+  color: white;
+  text-align: center;
+  font-size: 1.6vw;
+  margin-bottom: 0.8vw;
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-top: 0.5vw;
+  margin-bottom: 0.2vw;
+  font-size: 0.9vw;
+}
+
+form label i {
+  margin-right: 0.5vw;
+  color: #ffffff;
+}
+
+form input[type="text"],
+form input[type="submit"] {
+  width: 100%;
+  padding: 0.5vw;
+  margin-bottom: 0.6vw;
+  border: none;
+  border-radius: 1vw;
+  box-sizing: border-box;
+  font-size: 1.2vw;
+}
+
+form input[type="text"] {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+}
+
+form input[type="text"]:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.8vw;
+}
+
+form input[type="submit"]:hover {
+  background-color: #4b554c;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 1.2vw;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.profile-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2.5vw;
+  color: white;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5vw;
+}
+
+.header-content h1 {
+  font-size: 2vw;
+  font-weight: bold;
+  margin: 0;
+}
+
+.student-id {
+  font-size: 1vw;
+  opacity: 0.95;
+  margin: 0;
+}
+
+.student-id i {
+  margin-right: 0.3vw;
+}
+
+.profile-body {
+  padding: 2vw;
+}
+
+.profile-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2vw;
+  padding: 1.2vw 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.profile-item:last-child {
+  border-bottom: none;
+}
+
+.icon {
+  font-size: 1.3vw;
+  color: #667eea;
+  min-width: 1.5vw;
+  margin-top: 0.2vw;
+  text-align: center;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.label {
+  font-size: 0.85vw;
+  color: #666;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05vw;
+  margin-bottom: 0.3vw;
+}
+
+.value {
+  font-size: 1vw;
+  color: #333;
+  line-height: 1.5;
+}
+
+.value pre {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.no-profile {
+  background: white;
+  padding: 3vw;
+  border-radius: 1.2vw;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.no-profile h1 {
+  color: #667eea;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+}
+
+.no-profile p {
+  color: #666;
+  font-size: 1.1vw;
+}
